@@ -2,8 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import "./intro.css";
 import {introvertNo} from "../../assets/constant/images";
+import { useNavigate } from 'react-router-dom';
 
 const Intro = () => {
+  const navigate = useNavigate();
   return (
     <div className="introContainer">
     
@@ -36,7 +38,7 @@ const Intro = () => {
       transition={{duration:1,delay:1}}
       className="introBtns"
       >
-        <span className="introBtn">See Projects</span>
+        <span className="introBtn" onClick={()=>navigate("/info")} >See Projects</span>
         <span className="introBtn">Contact Us</span>
       </motion.div>
 
