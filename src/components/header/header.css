@@ -1,0 +1,67 @@
+
+.headerContainer {
+    width: 100%;
+    padding: 10px ;
+    background-color: rgb(35, 162, 179);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo {
+    margin-left: 10px;
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.headerTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    margin-left: 15px;
+    margin-top: 5px;   
+    /* font is a little above thats why margin top  */
+}
+
+.menuBar {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.menuIcon {
+    display: none;
+}
+
+.menuBtn {
+    color: #fff;
+    padding: 8px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.menuBtn:is(:hover , :focus){
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:680px) {
+    .menuBar {
+        display: none;
+    }
+
+    .menuIcon {
+        display:inline-block;
+    }
+    
+}

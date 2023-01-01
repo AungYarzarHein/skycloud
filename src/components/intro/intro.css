@@ -1,0 +1,154 @@
+
+.introContainer {
+    width: 100%;
+    /* background-color: rgb(137, 238, 238); */
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+
+.introContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    opacity: 0;
+}
+
+.introContent h1 {
+    margin-left: 20px;
+    
+}
+
+.name {
+    margin-left: 20px;
+    color: rgb(35, 162, 179);
+    font-size: 3rem;
+    line-height: 1.6;
+    font-weight: 800;
+}
+
+.jobname {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgb(52, 59, 65);
+    text-transform: uppercase;
+    padding: 15px 0px;
+    /* box-shadow: 0 0 1px rgb(100, 176, 219); */
+    /* background-color: rgba(0, 0, 0, 0.078); */
+    transition: all .2s linear;
+    cursor: pointer;
+}
+
+.jobname:hover{
+    color: rgb(0, 0, 0);
+}
+
+.introBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 3rem;
+    opacity: 0;
+}
+
+.introBtn {
+    min-width: 100px;
+    padding: 13px 20px 8px 20px;
+    margin-left: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(22, 111, 110, 0.815);
+    box-shadow: 0px 0px 1px rgb(27, 190, 190);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    transition: all .3s linear;
+}
+
+.introBtn:hover {
+    background-color: rgba(0, 0, 0, 0.719);
+    color: #f9f9f9;
+}
+
+.introImg {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introImage {
+    width: 60%;
+    height: auto;
+}
+
+
+@media screen and (max-width:830px) {
+    .introContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .introContent {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .greeting {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .introBtns {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .introContent h1 {
+        font-size: 2rem;
+    }
+
+    .name {
+        font-size: 2.2rem;
+    }
+
+    .jobname {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .introContent h1 {
+        font-size: 1.2rem;
+    }
+
+    .name {
+        font-size: 1.4rem;
+    }
+    .jobname {
+        font-size: 12px;
+    }
+
+    .introBtn {
+        font-size: 12px;
+        padding: 10px 15px 5px 15px;
+    }
+}

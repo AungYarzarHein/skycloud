@@ -1,0 +1,148 @@
+
+.infoContainer {
+    max-width: 1200px;
+    min-height: 600px;
+    /* background-image: linear-gradient(180deg , rgb(138, 208, 238),rgb(41, 222, 207)); */
+    padding: 50px 10px 70px 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.infoHeader {
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.white {
+    padding: 12px 20px;
+    background-color: #f9f9f9;
+    color: rgb(33, 118, 121);
+    font-weight: 900;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.dark {
+    padding: 12px 20px;
+    background-color: rgb(33, 118, 121);
+    color: #f9f9f9;
+    padding-bottom: 5px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.infoImage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.infoImg {
+    width: 30%;
+    margin-top: 50px;
+    height: auto;
+}
+
+.leftInfo , .rightInfo {
+    flex: 1;
+    display: flex;
+    min-width: 320px;
+    flex-direction: column;
+    background-color: rgba(253, 223, 223, 0);
+    padding: 20px;
+}
+
+.infoTitle {
+    font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 2;
+}
+
+.smallDetails {
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.rightInfo ul {
+    flex: 1;
+    min-width: 320px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.infoListHeader {
+    font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 1.4;
+}
+
+.goals {
+    line-height: 2;
+}
+
+
+.teamMembersContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.menberCard {
+    width: 220px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(24, 147, 161, 0.786);
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    justify-content:space-around;
+}
+
+.cardImage {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.cardImage img {
+    width: 100%;
+}
+
+.memberName {
+    color: rgb(0, 105, 70);
+    font-weight: 700;
+}
+
+.memberJob {
+    color: rgb(23, 23, 24);
+    font-size: 14px;
+}
+
+@media screen and (max-width:700px) {
+   .infoImg {
+    margin-right: 20px;
+   }
+    
+}
+
+@media screen and (max-width:566px) {
+    .infoImg {
+    width: 50%;
+    }
+     
+ }
+
