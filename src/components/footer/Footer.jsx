@@ -23,9 +23,9 @@ const addressInfo = ["Yangon , Myanmar , Hledan TownShip ","12 Street , No(34) "
   <div className="footerTypes">
      <ul>
         <li className='listHeader' > Commonly Asked Questions </li>
-        {categories.map((item) => {
+        {categories.map((item,index) => {
             return (
-                <li className='listItem' >
+                <li className='listItem' key={index} >
                     {item}
                 </li>
             )
@@ -36,9 +36,9 @@ const addressInfo = ["Yangon , Myanmar , Hledan TownShip ","12 Street , No(34) "
   <div className="footerInfo">
   <ul>
         <li className='listHeader' > Our Address </li>
-        {addressInfo.map((item) => {
+        {addressInfo.map((item,index) => {
             return (
-                <li className='listItem' >
+                <li className='listItem' key={index} >
                     {item}
                 </li>
             )

@@ -15,11 +15,9 @@ const Intro = () => {
        transition={{duration:1,delay:0.5}}
        className="greeting"
        >
-           <h1>
-            Hi Everyone !
-           </h1>
+           <span className="greet">Hi Everyone !</span>
            <span className='name' >
-           This is Yarzar
+           I am Yarzar
            </span>
       </motion.div>
 
