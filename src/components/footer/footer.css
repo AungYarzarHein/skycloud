@@ -19,6 +19,26 @@
     padding-left: 20px;
 }
 
+.socialContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.socialIcon {
+    color: #f9f9f9;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.socialIcon:hover {
+    color: #3d4f51;
+}
+
 .fText1 {
     color: #f9f9f9;
     font-weight: 800;

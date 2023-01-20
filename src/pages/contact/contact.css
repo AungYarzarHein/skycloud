@@ -1,0 +1,152 @@
+
+
+.userContactTitle {
+    max-width: 1200px;
+    text-align: center;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.userContactTitleHeader {
+    flex: 2;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(24, 25, 25);
+    padding: 1rem;
+    text-align: right;
+}
+
+.contactEmail {
+    flex: 1;
+    text-align: right;
+}
+
+.contactContainer {
+    max-width: 1200px;
+    /* height: 600px; */
+    background-color:rgb(55, 163, 167);
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 3rem auto;
+    opacity:0;
+}
+
+.contactImg {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.contactImgTitle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 2rem;
+}
+
+.contactImgTitle span {
+    font-size: 2rem;
+    font-weight: 900;
+    color: antiquewhite;
+}
+.contactImgImage {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contactImgImage img {
+    width: 20%;
+    height: auto;
+}
+
+.contactInputContainer {
+    flex: 2;
+    background-color:#f7f7f7;
+    border-radius: 3px;
+    padding: 1rem;
+}
+
+.contactInputItemGroup {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contactInputItemGroup span {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.contactInputItem {
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    padding: .8rem;
+}
+
+.suggestionGroup {
+    width: 100%;
+    padding: 1rem;
+}
+
+.suggestionText {
+    width: 100%;
+    min-height: 200px;
+    outline: none;
+    border: none;
+    padding: 1rem;
+}
+
+.contactBtns {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.contactBtn {
+    padding: 15px 20px 12px 20px;
+    width: 130px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #f7f7f7;
+    font-weight: 700;
+    background-color:rgb(55, 163, 167);
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width:680px){
+    .userContactTitle {
+        flex-direction: column;
+    }
+
+    .userContactTitleHeader {
+        text-align: center;
+    }
+
+    .contactContainer {
+        flex-direction: column;
+    }
+
+    .contactImg {
+        display: block;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .contactImgTitle span {
+        font-size: 1.6rem;
+    }
+}

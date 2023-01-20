@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import "./footer.css";
+import {FaFacebook,FaInstagram,FaTwitter,FaLinkedin,FaTiktok,FaWhatsapp} from "react-icons/fa"
 
 
 const Footer = () => {
@@ -18,6 +19,14 @@ const addressInfo = ["Yangon , Myanmar , Hledan TownShip ","12 Street , No(34) "
   <div className="footerTitle">
      <div><span className="fText1"> Sky</span><span className="fText2">Cloud</span></div>
      <span className="jobTitle">Mern & React Native App Developement</span>
+     <div className="socialContainer">
+        <FaFacebook  className="socialIcon" />
+        <FaInstagram  className="socialIcon" />
+        <FaTwitter  className="socialIcon" />
+        <FaLinkedin  className="socialIcon" />
+        <FaWhatsapp  className="socialIcon" />
+        <FaTiktok  className="socialIcon" />
+     </div>
   </div>
 
   <div className="footerTypes">

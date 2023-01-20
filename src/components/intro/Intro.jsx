@@ -37,7 +37,7 @@ const Intro = () => {
       className="introBtns"
       >
         <span className="introBtn" onClick={()=>navigate("/info")} >See Projects</span>
-        <span className="introBtn">Contact Us</span>
+        <span className="introBtn" onClick={()=>navigate("/contact")} >Contact Us</span>
       </motion.div>
 
        </div>

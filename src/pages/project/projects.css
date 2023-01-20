@@ -1,0 +1,133 @@
+
+
+
+.projectContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.webDev {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 1rem;
+}
+
+.webDevHeader {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: 900;
+    color: black;
+    margin-top: 3rem;
+}
+
+.webDevHeaderIcon {
+    margin-right: 10px;
+}
+
+.projectCardContainer {
+    min-width: 350px;
+    padding: 20px 10px;
+    box-shadow: 0 0 2px rgba(82, 76, 76, 0.861);
+    opacity: 0;
+}
+
+.projectCardHeader {
+    font-size: 1.4rem;
+    color: rgb(46, 45, 45);
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+
+.projectImg {
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.552);
+    /* display: flex; */
+    overflow: hidden;    
+}
+
+.projectAppImg {
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    background-color:rgb(55, 163, 167);
+    /* display: flex; */
+    overflow: hidden;    
+}
+
+.projectImage {
+    width: 100%;
+    height: auto;
+}
+
+.projectCardContainer ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.projectCardContainer li {
+    font-size: 1rem;
+    color: rgb(14, 45, 45);
+    line-height: 1.6;
+    margin-left: 10px;
+}
+
+.projectCardBtns {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.projectCardBtn {
+    padding: 13px 20px 10px 20px ;
+    background-color: rgba(0, 0, 0, 0.552);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.projectCardAppBtn {
+    padding: 13px 20px 10px 20px ;
+    background-color: rgb(55, 163, 167);
+    border-radius: 5px;
+    color: #f7f7f7;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.projectCardBtn , .projectCardAppBtn  {
+    text-decoration: none;
+}
+
+.projectListContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+@media screen and (max-width:566px) {
+    .webDevHeader {
+        font-size: 1.6rem;
+        padding-left: 1rem;
+    }
+     
+ }
